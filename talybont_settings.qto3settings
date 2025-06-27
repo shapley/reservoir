@@ -1,0 +1,620 @@
+{
+  "CAMERA": "PERSPECTIVE",
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "enabled": false,
+    "layers": {
+      "Mask_9e4b6fec_dca9_423e_a2e0_ae83fdb627b3": {
+        "enabled": true,
+        "groups": []
+      },
+      "NRW_HISTORIC_FLOODMAP_8908f433_ff79_47c0_ac71_e761835481e1": {
+        "enabled": true,
+        "groups": []
+      },
+      "NRW_WFD_OPERATIONAL_CATCHMENTS_C2_3c6cf214_84bc_4b1e_a610_d4638adf02bb": {
+        "enabled": true,
+        "groups": []
+      },
+      "NRW_WFD_RIVERCATCHMENT_C1_a2381ea7_848d_4c69_b607_95dc04849a54": {
+        "enabled": true,
+        "groups": []
+      },
+      "Usk_SAC_OS_waterbodies_66c9b1af_a6c1_4905_9fc5_6598969a63b4": {
+        "enabled": true,
+        "groups": []
+      },
+      "Usk_WFD_catchment_data_joins_5c0ae80b_ce5a_483a_8cdc_fa9ff9de9a6e": {
+        "enabled": true,
+        "groups": []
+      },
+      "address___farm_1842657e_dee6_4b86_8528_1bfd8478698c": {
+        "enabled": true,
+        "groups": []
+      },
+      "afon_wysg_river_usk_catchment_full_extent_ce102163_4420_4663_a670_6dad95167307": {
+        "enabled": true,
+        "groups": []
+      },
+      "bbnp_boundary_0aa3bea0_6bd4_4788_ace4_50e386ebffde": {
+        "enabled": true,
+        "groups": []
+      },
+      "clipped_5181d419_d922_401e_b0bd_ecb911ee9fcc": {
+        "enabled": true,
+        "groups": []
+      },
+      "clipped_9818bdb9_c119_48b8_a9da_e890395f3908": {
+        "enabled": true,
+        "groups": []
+      },
+      "dsm_usk_2c910258_4b3a_4274_b6e2_6d19c489d062": {
+        "enabled": true,
+        "groups": []
+      },
+      "dsm_usk_hillshade_32fbaf9d_95dc_405a_9869_32806069bac0": {
+        "enabled": true,
+        "groups": []
+      },
+      "dsm_usk_hillshade_4c19021b_a15c_4c7b_9048_9fba651a190b": {
+        "enabled": true,
+        "groups": []
+      },
+      "economic_flood_risk_970a85a1_2a75_4176_8cd7_219aa6576ae8": {
+        "enabled": true,
+        "groups": []
+      },
+      "farm_e14bf2c1_54a4_41cc_b89e_c8eb16996e01": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:3fef186e": {
+        "enabled": true,
+        "groups": []
+      },
+      "nrw_main_rivers_1c4060e1_20b9_402f_9ce7_4a5941599aed": {
+        "enabled": true,
+        "groups": []
+      },
+      "river_usk_mmap_extract_fbcc85b4_b94c_40eb_8ed7_4cb0ec43834d": {
+        "enabled": true,
+        "groups": []
+      },
+      "usk_1m_dsm_raw_5576f06b_d12e_40d9_9c63_b4faa1477f32": {
+        "enabled": true,
+        "groups": []
+      },
+      "wales_8a46fa0f_7293_4e6c_a7f5_cb708ef3aae6": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": true,
+    "startOnLoad": true
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "bbnp_boundary_0aa3bea0_6bd4_4788_ace4_50e386ebffde",
+      "name": "bbnp_boundary",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"ogc_fid\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_AllFeatures": true,
+        "radioButton_Expression": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "nrw_main_rivers_1c4060e1_20b9_402f_9ce7_4a5941599aed",
+      "name": "usk_main_rivers — nrw_main_rivers",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true
+      },
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Mask_9e4b6fec_dca9_423e_a2e0_ae83fdb627b3",
+      "name": "Mask",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "economic_flood_risk_970a85a1_2a75_4176_8cd7_219aa6576ae8",
+      "name": "high risk agricultural land",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "farm_e14bf2c1_54a4_41cc_b89e_c8eb16996e01",
+      "name": "address — farm",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "address___farm_1842657e_dee6_4b86_8528_1bfd8478698c",
+      "name": "address — farm (Hotspots)",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "river_usk_mmap_extract_fbcc85b4_b94c_40eb_8ed7_4cb0ec43834d",
+      "name": "Agricultural",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "clipped_5181d419_d922_401e_b0bd_ecb911ee9fcc",
+      "name": "usk_mastermap — clipped",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "afon_wysg_river_usk_catchment_full_extent_ce102163_4420_4663_a670_6dad95167307",
+      "name": "Afon Wysg / River Usk Catchment Extent",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "clipped_9818bdb9_c119_48b8_a9da_e890395f3908",
+      "name": "usk-river-catchments-1 — clipped",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "NRW_WFD_OPERATIONAL_CATCHMENTS_C2_3c6cf214_84bc_4b1e_a610_d4638adf02bb",
+      "name": "WFD Operational Catchments C2",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Usk_SAC_OS_waterbodies_66c9b1af_a6c1_4905_9fc5_6598969a63b4",
+      "name": "Usk_SAC_OS_waterbodies",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true
+      },
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "wales_8a46fa0f_7293_4e6c_a7f5_cb708ef3aae6",
+      "name": "wales",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "NRW_WFD_RIVERCATCHMENT_C1_a2381ea7_848d_4c69_b607_95dc04849a54",
+      "name": "NRW_WFD_RIVERCATCHMENT_C1",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "NRW_HISTORIC_FLOODMAP_8908f433_ff79_47c0_ac71_e761835481e1",
+      "name": "NRW_HISTORIC_FLOODMAP",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Usk_WFD_catchment_data_joins_5c0ae80b_ce5a_483a_8cdc_fa9ff9de9a6e",
+      "name": "Usk WFD Catchment",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"fid\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "dsm_usk_2c910258_4b3a_4274_b6e2_6d19c489d062",
+      "name": "Contours 25m",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "usk_1m_dsm_raw_5576f06b_d12e_40d9_9c63_b4faa1477f32",
+      "name": "usk_1m_dsm_raw",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "bbnp_boundary_0aa3bea0_6bd4_4788_ace4_50e386ebffde",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "df65c6e0",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "df65c6e0",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "dsm_usk_hillshade_4c19021b_a15c_4c7b_9048_9fba651a190b",
+      "name": "dsm_usk_hillshade",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "dsm_usk_hillshade_32fbaf9d_95dc_405a_9869_32806069bac0",
+      "name": "dsm_usk",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "bbnp_boundary_0aa3bea0_6bd4_4788_ace4_50e386ebffde",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "3dff4604",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "3dff4604",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:3fef186e",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "OPT": {
+    "localMode": true,
+    "viewpoint": {
+      "lookAt": {
+        "x": 310015.6,
+        "y": 219011.44049999941,
+        "z": 0.0
+      },
+      "pos": {
+        "x": 310026.03673104837,
+        "y": 218834.36523595505,
+        "z": 6626.881994437252
+      }
+    }
+  },
+  "OutputFilename": "C:/Users/paulsh/Downloads/IEUAN_USK_PROJECT_KEEPIT/Qgis2threejs_Export\\index.html",
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      203,
+      234,
+      251,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "310015.6",
+    "lineEdit_CenterY": "219011.44049999941",
+    "lineEdit_Height": "4704.0",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "4704.0",
+    "lineEdit_zFactor": "1.0",
+    "slider_Fog": 41
+  },
+  "Template": "3DViewer(dat-gui).html",
+  "Title": "Afon Wysg / River Usk Catchment",
+  "Version": 20800,
+  "WIDGETS": {
+    "Label": {
+      "Footer": "",
+      "Header": "Section over Talybont Reservoir -  Afon Wysg / River Usk Catchment"
+    },
+    "Navi": {
+      "enabled": true
+    },
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  }
+}
